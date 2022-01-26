@@ -134,5 +134,3 @@
     default:
       echo "Mungkin Anda Salah Jurusan" . "</br>";
   endswitch;
-
-  <hr>
