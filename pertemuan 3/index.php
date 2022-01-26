@@ -8,14 +8,14 @@
 <body>
   <?php 
       echo"<h2>Belajar Web Programing</h2>";
-      echo ("Selamat Belajar<br>");
+      echo ("Saya Belajar Membuat Web<br>");
       echo "Saya Sedang Belajar Web Programing<br>";
       echo "Nama","Saya","Maulana","Amir","Arif";
    ?>
 
   <?php
       print "<h2>Belajar Web Programing Pemula</h2>";
-      print "Selamat Belajar<br>";
+      print "Saya Belajar Membuat Web<br>";
       print "Belajar Memahami Ilmu Web Programing";
    ?>
 
