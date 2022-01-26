@@ -73,7 +73,7 @@ include 'koneksi.php';
           <thead>
 
             <tr>
-              <th scope="col">NO</th>
+              <th scope="col">No</th>
               <th scope="col">Nama Lengkap</th>
               <th scope="col">Alamat</th>
               <th scope="col">Jenis Kelamin</th>
