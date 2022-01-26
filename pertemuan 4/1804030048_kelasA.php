@@ -2,16 +2,14 @@
 <html>
 
 <head>
-    <title>Pertemuan 4</title>
+  <title>Pertemuan 4</title>
 </head>
 
 <body>
-    <h2>Nama : Maulana Amir Arif <br>
-        Nim : 1904030048
-    </h2>
+  <h2>Nama : Maulana Amir Arif <br> Nim : 1904030048</h2>
 
-    <h1>Membuat Array</h1>
-    <?php
+  <h1>Membuat Array</h1>
+  <?php
     $values = array(1,2,3,4,5,60);
     var_dump($values);
     echo"<br>";
@@ -46,9 +44,9 @@
 
     ?>
 
-    <hr>
-    <h1>Map Dengan Array</h1>
-    <?php
+  <hr>
+  <h1>Map Dengan Array</h1>
+  <?php
     $maulana = array(
         "id" => "Maulana",
         "nama" => "Maulana Amir Arif",
@@ -79,10 +77,10 @@
 
     ?>
 
-    <hr>
-    <h1>Operator Matematika</h1>
+  <hr>
+  <h1>Operator Matematika</h1>
 
-    <?php
+  <?php
     $tambah = 10 + 10;
     $kurang = 100 - 10;
     $kali = 5 * 5;
@@ -98,9 +96,9 @@
     echo "Pangkat   : " . $pangkat . "<br>";
     ?>
 
-    <hr>
-    <h1>Increment</h1>
-    <?php
+  <hr>
+  <h1>Increment</h1>
+  <?php
     $a = 10;
     $a++;
     // $a = $a + 1;
@@ -111,8 +109,8 @@
     echo($a);
     ?>
 
-    <hr>
-    <?php
+  <hr>
+  <?php
     $nama1= "Maulana Amir Arif";
     $nama2= "Farhan Ramadhan";
     $nama3= "Fajar Latiful Habib";
@@ -120,17 +118,17 @@
     $nama5= "Septian Agus";
     ?>
 
-    <h1>Daftar Nama Anggota Kelas</h1>
+  <h1>Daftar Nama Anggota Kelas</h1>
 
-    <?php echo "$nama1";?><br>
-    <?php echo "$nama2";?><br>
-    <?php echo "$nama3";?><br>
-    <?php echo "$nama4";?><br>
-    <?php echo "$nama5";?><br>
+  <?php echo "$nama1";?><br>
+  <?php echo "$nama2";?><br>
+  <?php echo "$nama3";?><br>
+  <?php echo "$nama4";?><br>
+  <?php echo "$nama5";?><br>
 
-    <hr>
-    <h1>Membuat Array di PHP</h1>
-    <?php
+  <hr>
+  <h1>Membuat Array di PHP</h1>
+  <?php
     // membuat array kosong
     $array1 = array("elemen","elemen");//cara dibawah php 5
     $array2 = ["elemen","elemen"];//diatas php 5
@@ -140,33 +138,33 @@
     $makanan = array("Nasi Goreng", "Ayam Goreng", "Ikan Goreng");
     ?>
 
-    <?php
+  <?php
     var_dump($minuman);
     ?>
 
-    <?php
+  <?php
     print_r($makanan);
     ?>
 
-    <?php
+  <?php
     echo "$makanan[0]";
     ?>
 
-    <hr>
-    <?php
+  <hr>
+  <?php
     // membuat array mhs
         $nama= ["Maulana Amir Arif","Farhan Ramadhan","Fajar Latiful Habib","Amim Faisal","Septian Agus"];
     ?>
 
-    <?php
+  <?php
     // menampilkan isi array perulangan for
     for($i=0; $i < count($nama); $i++){
         echo $nama[$i]."<br>";
     }
     ?>
 
-    <hr>
-    <?php
+  <hr>
+  <?php
     //membuat array kumpulan buku
     $books= ["Belajar Web Programming","Desainer Grafis dengan Vektor","Kursus 2 Jam HTML"];
 
@@ -176,9 +174,9 @@
     }
     ?>
 
-    <hr>
-    <h1>Menambahkan Array</h1>
-    <?php
+  <hr>
+  <h1>Menambahkan Array</h1>
+  <?php
     // membuat array
     $hobi = [
      	"Mendengarkan Musik",
@@ -199,9 +197,9 @@
     }
     ?>
 
-    <hr>
-    <h1>Membuat Array Asosiatif</h1>
-    <?php
+  <hr>
+  <h1>Membuat Array Asosiatif</h1>
+  <?php
     // membuat array asosiatif
     $mhs = [
         "nim" => "1904030048",
@@ -218,9 +216,9 @@
     echo "<p>Jurusan    : ".$mhs["jurusan"]."</br>";
     ?>
 
-    <hr>
-    <h1>Array Multi Dimensi</h1>
-    <?php
+  <hr>
+  <h1>Array Multi Dimensi</h1>
+  <?php
     // ini adalah array dua dimensi
     $matrik = [ 
         [2,3,4],
@@ -232,9 +230,9 @@
     echo $matrik[1][0]; //-> output: 7
     ?>
 
-    <hr>
-    <h1>Ini Adalah Array 2 Dimensi</h1>
-    <?php
+  <hr>
+  <h1>Ini Adalah Array 2 Dimensi</h1>
+  <?php
     // membuat array 2 dimensi yang berisi array asosiatif
     $ortus = [
         [ 
