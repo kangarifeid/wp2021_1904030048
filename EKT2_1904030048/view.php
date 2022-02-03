@@ -1,5 +1,5 @@
 <?php
-date_default_timezone_get("Asia/Jakarta");
+// date_default_timezone_get("Asia/Jakarta");
 
 include 'koneksi.php';
 ?>
@@ -27,7 +27,8 @@ include 'koneksi.php';
   <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand text-white" href="#">SIPEMABA || Kampus Kita</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -49,7 +50,8 @@ include 'koneksi.php';
       <ul class="nav flex-column">
 
         <li class="nav-item">
-          <a class="nav-link text-white" aria-current="page" href="#"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
+          <a class="nav-link text-white" aria-current="page" href="#"><i class="fas fa-tachometer-alt"></i>
+            Dashboard</a>
           <hr class="bg-dark">
         </li>
         <li class="nav-item">
@@ -95,17 +97,17 @@ include 'koneksi.php';
         <tbody>
           <?php $no = 1; ?>
           <?php while ($camaba = mysqli_fetch_row($result)) { ?>
-            <tr>
-              <th scope="row"><?php echo $no; ?></th>
-              <td><?php echo $camaba[1]; ?></td>
-              <td><?php echo $camaba[2]; ?></td>
-              <td><?php echo $camaba[3]; ?></td>
-              <td><?php echo $camaba[4]; ?></td>
-              <td><?php echo $camaba[5]; ?></td>
-              <td><img src="image/foto1.png" width="50px"></td>
-              <td><i class="fas fa-edit"></i> || <i class="fas fa-trash"></i></td>
-            </tr>
-            <?php $no++ ?>
+          <tr>
+            <th scope="row"><?php echo $no; ?></th>
+            <td><?php echo $camaba[1]; ?></td>
+            <td><?php echo $camaba[2]; ?></td>
+            <td><?php echo $camaba[3]; ?></td>
+            <td><?php echo $camaba[4]; ?></td>
+            <td><?php echo $camaba[5]; ?></td>
+            <td><img src="image/foto1.png" width="50px"></td>
+            <td><i class="fas fa-edit"></i> || <i class="fas fa-trash"></i></td>
+          </tr>
+          <?php $no++ ?>
           <?php } ?>
         </tbody>
       </table>
@@ -115,7 +117,9 @@ include 'koneksi.php';
   <!-- Optional JavaScript; choose one of the two! -->
 
   <!-- Option 1: Bootstrap Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
 
   <!-- Option 2: Separate Popper and Bootstrap JS -->
   <!--

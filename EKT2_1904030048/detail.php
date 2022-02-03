@@ -1,5 +1,5 @@
 <?php
-date_default_timezone_get("Asia/Jakarta");
+// date_default_timezone_get("Asia/Jakarta");
 
 require 'function.php';
 
@@ -50,7 +50,7 @@ $camaba = query("SELECT * FROM calon_mhs WHERE id=$id");
 
   <!-- sidebar -->
   <div class="row">
-    <div class="col-md-2 pr-3 pt-4 bg-secondary">
+    <div class="col-md-2 mt-3 pr-3 pt-5 bg-secondary">
       <!-- menu -->
       <ul class="nav flex-column">
         <li class="nav-item">
@@ -77,9 +77,8 @@ $camaba = query("SELECT * FROM calon_mhs WHERE id=$id");
       </ul>
     </div>
 
-    <!-- konten -->
-    <div class="col-md-10 p-5 pt-5">
-
+    <!-- Konten -->
+    <div class="col-md-10 mt-3 p-5 pt-5">
       <h3><i class="fas fa-users"> Detail data Calon Mahasiswa</i></h3>
       <hr>
 
