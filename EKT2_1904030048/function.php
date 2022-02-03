@@ -6,14 +6,14 @@ function query($query)
 {
     global $conn;
 
-    //mengambil seluruh data
+    // mengambil seluruh data
     $result = mysqli_query($conn, $query);
 
     if (mysqli_num_rows($result) == 1) {
         return mysqli_fetch_assoc($result);
     }
 
-    //pemanggilan elemen data dengan rapih
+    // pemanggilan elemen data dengan rapih
     $rows = [];
     while ($row = mysqli_fetch_assoc($result)) {
         $rows[] = $row;
@@ -60,13 +60,13 @@ function edit($data)
     $foto_maba = htmlspecialchars($data['foto_maba']);
 
     $query = "UPDATE  calon_mhs SET
-  nama ='$nama',
-  alamat ='$alamat',
-  jenis_kelamin ='$jenis_kelamin',
-  agama ='$agama',
-  sekolah_asal ='$sekolah_asal',
-  foto_maba ='$foto_maba'
-  WHERE id =$id;";
+    nama ='$nama',
+    alamat ='$alamat',
+    jenis_kelamin ='$jenis_kelamin',
+    agama ='$agama',
+    sekolah_asal ='$sekolah_asal',
+    foto_maba ='$foto_maba'
+    WHERE id =$id;";
 
     mysqli_query($conn, $query);
 
